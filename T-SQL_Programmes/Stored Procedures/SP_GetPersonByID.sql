@@ -1,0 +1,8 @@
+
+
+CREATE PROCEDURE SP_GetAllPeople
+  @PersonID INT
+AS
+BEGIN
+		SELECT * FROM People WHERE PersonID = @PersonID;
+END
